@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Tugas 27 BOOTSTRAP GRID</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <!-- <link
+      rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script> -->
+    <style media="screen">
+      /* .item{
+        background: green;
+        text-align: center;
+        padding: 25px;
+      } */
+      .container-fluid{
+        min-height: 100px;
+      }
+      .col{
+        background: blue;
+      }
+      .box-inner{
+        padding: 20px;
+        margin: 2px;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid bg-primary mt-5">
+      <div class="row justify-content-md-left ml-1">
+        <div class="col-12 col-lg-10 col-md-6 mt-2 mb-2 box bg-success border border-white">
+          <div class="box-inner">
+            <!-- <p class="content">This is my first div</p> -->
+            <div class="row justify-content-md-left">
+              <div class="col-12 col-lg-11 col-md-6 box d-flex border border-white" style="background:blue;">
+                <div class="box-inner">
+                  <!-- <p class="content">This is my second div</p> -->
+                  <div class="row justify-content-md-left">
+                     <div class="col-12 col-lg-6 col-md-6 box bg-danger border border-white">
+                      <div class="box-inner">
+                        <!-- <p class="content">This is my third div</p> -->
+                        <div class="row justify-content-md-left">
+                           <div class="col-12 col-lg-6 col-md-6 box border border-white" style="background:yellow;">
+                            <div class="box-inner">
+                              <!-- <p class="content">This is my fourth div</p> -->
+                              <div class="row justify-content-md-left">
+                                 <div class="col-12 col-lg-3 col-md-6 box border border-white" style="background-color:#800080;">
+                                  <div class="box-inner">
+                                    <!-- <p class="content">This is my fifth div</p> -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
